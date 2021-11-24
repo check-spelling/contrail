@@ -1,0 +1,27 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
+(?:^|/)(?i)COPYRIGHT
+(?:^|/)(?i)LICEN[CS]E
+(?:^|/)package(?:-lock|)\.json$
+(?:^|/)vendor/
+ignore$
+\.avi$
+\.crt$
+\.ico$
+\.jpe?g$
+\.key$
+\.lock$
+\.map$
+\.min\..
+\.mod$
+\.mp[34]$
+\.png$
+\.svg$
+\.tgz$
+\.wav$
+^\.github/
+^\Qgo.sum\E$
+^\Qhelm/contrail-go/values.yaml\E$
+^\Qpkg/neutron/logic/test_data/floatingip/create/network_fqname-to-id_response.json\E$
+^\Qpkg/neutron/logic/test_data/floatingip/read/network_fqname-to-id_response.json\E$
+^\Qpkg/neutron/logic/test_data/floatingip/update/network_fqname-to-id_response.json\E$
+^\Qplaybooks/contrail-go-docker/build-vars.yaml\E$
